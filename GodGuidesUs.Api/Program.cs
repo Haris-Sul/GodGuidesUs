@@ -14,7 +14,11 @@ builder.Services.AddCors(options =>
     options.AddPolicy(corsPolicyName, policyBuilder =>
     {
         policyBuilder
-            .WithOrigins("http://localhost:5173")
+            .WithOrigins(
+                "http://localhost:5173", 
+                "https://godguides.us", 
+                "https://god-guides-us.vercel.app"
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
