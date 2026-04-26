@@ -1,0 +1,11 @@
+# csharp and dotnet
+[Bb]in/
+[Oo]bj/
+appsettings.Development.json
+build-temp*/
+
+# react and node
+node_modules/
+dist/
+.env
+.DS_Store
