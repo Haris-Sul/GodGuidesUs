@@ -102,9 +102,9 @@ function App() {
       <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col px-4 py-8">
         <header className="mb-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-500">god guides us</p>
-          <h1 className="mt-1 text-3xl font-semibold">chat with quran + tafsir guidance</h1>
+          <h1 className="mt-1 text-3xl font-semibold">Navigate modern problems with practical ancient wisdom</h1>
           <p className="mt-2 text-base text-slate-600">
-            ask your question and the app retrieves relevant verses before generating a response.
+            Describe your situation and issues to start discovering new ways to enhance your life, with guidance rooted in authentic Islamic texts and classic commentaries, built for everyone
           </p>
         </header>
 
@@ -112,7 +112,7 @@ function App() {
           <div className="flex h-[60vh] flex-col gap-3 overflow-y-auto pr-1">
             {messages.length === 0 ? (
               <div className="m-auto max-w-md rounded-xl border border-dashed border-slate-300 p-6 text-center text-base text-slate-500">
-                start a conversation to test retrieval + gemma generation.
+                Start a conversation to begin your journey towards clarity and growth. Receive tailored insights that address the root of your challenges to transform your daily experience
               </div>
             ) : (
               messages.map((message, index) => (
