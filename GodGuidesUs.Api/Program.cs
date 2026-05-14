@@ -17,6 +17,7 @@ builder.Services.AddCors(options =>
             .WithOrigins(
                 "http://localhost:5173", 
                 "https://godguides.us", 
+                "https://www.godguides.us",
                 "https://god-guides-us.vercel.app"
             )
             .AllowAnyHeader()
